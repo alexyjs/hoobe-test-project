@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background-color: #f3f3f3;
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --background-primary: #78c4cb;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(var(--foreground-rgb));
+  background: var(--background-color);
+}
+
+svg {
+  fill: currentColor;
+}
+
+.text-bdbaba {
+  color: #bdbaba;
+}
+
+.font-family-semibold {
+  font-family: 'Poppins SemiBold', sans-serif;
+}
+
+.bg-primary {
+  background: var(--background-primary);
+}
+
+.text-primary {
+  color: var(--background-primary);
+}
